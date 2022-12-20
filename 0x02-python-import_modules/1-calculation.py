@@ -8,7 +8,7 @@ if __name__ == "__main__":
     e = mul(a, b)
     f = div(a, b)
     print("{} + {} = {}".format(a, b, c))
-    print("{} + {} = {}".format(a, b, d))
-    print("{} + {} = {}".format(a, b, e))
-    print("{} + {} = {}".format(a, b, f))
+    print("{} - {} = {}".format(a, b, d))
+    print("{} * {} = {}".format(a, b, e))
+    print("{} / {} = {}".format(a, b, f))
 
