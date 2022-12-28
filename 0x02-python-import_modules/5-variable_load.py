@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-import variable_load_5 as var
-print("{}".format(var.a))
+from variable_load_5 import a
+print("{:d}".format(a))
