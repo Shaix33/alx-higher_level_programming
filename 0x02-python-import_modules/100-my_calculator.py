@@ -4,8 +4,6 @@ import sys
 if __name__ == "__main__":
     numArgs = len(sys.argv) - 1
     args = sys.argv
-    result = 0
-
     if numArgs != 3:
         print("Usage: Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
@@ -15,4 +13,4 @@ if __name__ == "__main__":
         sys.exit(1)
     a = int(args[1])
     b = int(args[3])
-    print("{} {} {} = {}".format(a,args[2], b, ops[args[2]](a, b)))
+    print("{} {} {} = {}".format(a, args[2], b, ops[args[2]](a, b)))
